@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mood Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Daily Mood Tracker</h1>
+      <div class="mood-picker">
+        <button class="mood" data-mood="😀" data-color="#FFD700">😀</button>
+        <button class="mood" data-mood="😐" data-color="#C0C0C0">😐</button>
+        <button class="mood" data-mood="😢" data-color="#6495ED">😢</button>
+        <button class="mood" data-mood="🤩" data-color="#FF4500">🤩</button>
+        <button class="mood" data-mood="😡" data-color="#DC143C">😡</button>
+      </div>
+      <div class="calendar-container">
+        <div class="calendar-header" id="calendar-header"></div>
+        <div class="calendar-days">
+          <div>Sun</div>
+          <div>Mon</div>
+          <div>Tue</div>
+          <div>Wed</div>
+          <div>Thu</div>
+          <div>Fri</div>
+          <div>Sat</div>
+        </div>
+        <div class="calendar" id="calendar"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
